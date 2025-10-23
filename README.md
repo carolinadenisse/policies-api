@@ -73,33 +73,30 @@ src/
 ### Crear .env
 PORT=3000
 NODE_ENV=development
-
-# JWT
 JWT_SECRET=super-secreto
 JWT_EXPIRES=86400
-
-# DB
 DB_TYPE=sqlite
 DB_DATABASE=policies.db
 
 ### Instrucciones para ejecutar el proyecto:
-# yarn install     # instalar
-# yarn build       # compilar
-# yarn start:dev   # desarrollo
+yarn install     # instalar
+yarn build       # compilar
+yarn start:dev   # desarrollo
 
 ### Instrucciones para visualizar swagger
-# Swagger UI:  http://localhost:3000/docs
-# OpenAPI JSON: http://localhost:3000/docs-json
+Swagger UI:  http://localhost:3000/docs
+OpenAPI JSON: http://localhost:3000/docs-json
 
 ### Instrucciones para ejecutar Pruebas
-# yarn test
+yarn test
 
 ### Instrucciones para ejecutar Lint
-# yarn lint
+yarn lint
 
 ### Instrucciones para ejecutar coverage
-## El coverage global mínimo es : { branches: 80, functions: 80, lines: 80, statements: 80 }
-# yarn test:cov
+El coverage global mínimo es : { branches: 80, functions: 80, lines: 80, statements: 80 }
+
+yarn test:cov
 
 
 
